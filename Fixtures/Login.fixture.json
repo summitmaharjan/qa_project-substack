@@ -1,0 +1,33 @@
+{
+  "validUser": {
+    "email": "smtmhrzn5@gmail.com",
+    "password": "Sumit12345@#"
+  },
+
+  "invalidUser": {
+    "invalidCredentials": {
+      "email": "invalidemail@gmail.com",
+      "password": "testpassword123"
+    },
+    "emptyField": {
+      "email": "",
+      "password": ""
+    },
+    "emptyEmail": {
+      "email": "",
+      "password": "Sumit12345@#"
+    },
+    "emptyPassword": {
+      "email": "smtmhrzn5@gmail.com",
+      "password": ""
+    },
+    "emailLeadingSpace": {
+      "email": "     smtmhrzn5@gmail.com",
+      "password": "Sumit12345@#"
+    },
+    "passwordLeadingSpace": {
+      "email": "smtmhrzn5@gmail.com",
+      "password": " Sumit12345@#"
+    }
+  }
+}
